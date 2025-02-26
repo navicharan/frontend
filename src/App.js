@@ -27,7 +27,6 @@ function App() {
     setHistory([]);
 };
 
-<button onClick={handleClearHistory}>Clear History</button>
     return (
         <div>
             <h1>Sum Calculator App 2</h1>
@@ -54,6 +53,7 @@ function App() {
                     </li>
                 ))}
             </ul>
+            <button onClick={handleClearHistory}>Clear History</button>
         </div>
     );
 
