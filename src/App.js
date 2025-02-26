@@ -30,7 +30,7 @@ function App() {
 <button onClick={handleClearHistory}>Clear History</button>
     return (
         <div>
-            <h1>Sum Calculator</h1>
+            <h1>Sum Calculator App 2</h1>
             <input
                 type="number"
                 placeholder="Enter Number 1"
